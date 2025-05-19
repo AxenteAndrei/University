@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Hero - Learn C++ Programming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="chero.png" alt="C++ Hero Logo" id="logo">
+        </div>
+        <div class="nav-items">
+            <button id="lang-switch" onclick="toggleLanguage()">RO</button>
+            <button class="contact-btn translate" data-en="Contact Us" data-ro="Contactează-ne">Contact Us</button>
+            <button class="sign-in-btn">Sign In</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="translate" data-en="Learn C++ Programming" data-ro="Invata Programarea C++">Master C++ Programming</h1>
+                <p class="translate" data-en="Learn C++ the fun way with C++ Hero. Interactive lessons, real-time feedback, and practical exercises." 
+                   data-ro="Învață C++ într-un mod distractiv cu C++ Hero. Lecții interactive, feedback în timp real și exerciții practice.">
+                    Learn C++ the fun way with C++ Hero. Interactive lessons, real-time feedback, and practical exercises.
+                </p>
+                <button class="download-btn translate" data-en="Download Now" data-ro="Descarcă Acum">Download Now</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="translate" data-en="Why Choose C++ Hero?" data-ro="De ce C++ Hero?">Why Choose C++ Hero?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="translate" data-en="Interactive Learning" data-ro="Învățare Interactivă">Interactive Learning</h3>
+                    <p class="translate" data-en="A fun and quick way to learn coding and test ur skills!" data-ro="O metoda rapida si distractiva de-ati testa cunostiintele">Learn by doing with our interactive code editor</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="translate" data-en="Real-time Feedback" data-ro="Feedback în Timp Real">Real-time Feedback</h3>
+                    <p class="translate" data-en="Get instant feedback on your knowledge" data-ro="Primește feedback instant pentru cunostintele tale">Get instant feedback on your code</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3 class="translate" data-en="Progress Tracking" data-ro="Urmărirea Progresului">Progress Tracking</h3>
+                    <p class="translate" data-en="Track your learning journey" data-ro="Urmărește-ți progresul în învățare">Track your learning journey</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="preview">
+            <h2 class="translate" data-en="See C++ Hero in Action" data-ro="Vezi C++ Hero în Acțiune">See C++ Hero in Action</h2>
+            <div class="screenshots">
+                <img src="screenshot1.png" alt="C++ Hero Screenshot 1" class="screenshot">
+                <img src="screenshot2.png" alt="C++ Hero Screenshot 2" class="screenshot">
+                <img src="screenshot3.png" alt="C++ Hero Screenshot 3" class="screenshot">
+            </div>
+        </section>
+
+        <section class="pricing">
+            <h2 class="translate" data-en="Choose Your Plan" data-ro="Alege Planul Tău">Choose Your Plan</h2>
+            <div class="plans">
+                <div class="plan">
+                    <div class="plan-badge translate" data-en="Basic" data-ro="De Bază">Basic</div>
+                    <h3 class="translate" data-en="Free" data-ro="Gratuit">Free</h3>
+                    <div class="plan-price">0 RON</div>
+                    <ul class="plan-features">
+                        <li class="translate" data-en="Basic lessons" data-ro="Lecții de bază">Basic lessons</li>
+                        <li class="translate" data-en="Tests" data-ro="Simulari">Code editor</li>
+                        <li class="translate" data-en="Community support" data-ro="Suport comunitate">Community support</li>
+                    </ul>
+                    <button class="plan-btn translate" data-en="Get Started" data-ro="Începe">Get Started</button>
+                </div>
+                <div class="plan">
+                    <div class="plan-badge translate" data-en="Popular" data-ro="Popular">Popular</div>
+                    <h3 class="translate" data-en="Monthly/Yearly" data-ro="Lunar/Anual">Monthly</h3>
+                    <div class="plan-price">20(150) RON<span class="plan-period">/mo(year)</span></div>
+                    <ul class="plan-features">
+                        <li class="translate" data-en="All basic features" data-ro="Toate funcțiile de bază">All basic features</li>
+                        <li class="translate" data-en="Advanced lessons" data-ro="Lecții avansate">Advanced lessons</li>
+                        <li class="translate" data-en="Unlimited exercises" data-ro="Exercitii nelimitate">Priority support</li>
+                    </ul>
+                    <button class="plan-btn translate" data-en="Subscribe" data-ro="Abonează-te">Subscribe</button>
+                </div>
+                <div class="plan featured">
+                    <div class="plan-badge translate" data-en="Student's Favorite" data-ro="Favorita elevului">Best Value</div>
+                    <h3 class="translate" data-en="One Time" data-ro="One Time">One Time</h3>
+                    <div class="plan-price">50 RON<span class="plan-period"></span></div>
+                    <ul class="plan-features">
+                        <li class="translate" data-en="60 days of access" data-ro="60 de zile de access">Lifetime access</li>
+                        <li class="translate" data-en="Intensive preparing for your exams" data-ro="Pregatire intensiva pentru BAC">All future updates</li>
+                        <li class="translate" data-en="Study the updated program" data-ro="Studiaza programa actualizata">1-on-1 mentoring</li>
+                    </ul>
+                    <button class="plan-btn translate" data-en="One Time Purchase" data-ro="Cumpara o singura data">Get Lifetime Access</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="translate" data-en="About C++ Hero" data-ro="Despre C++ Hero">About C++ Hero</h3>
+                <p class="translate" data-en="Learn C++ programming the right way with C++ Hero" data-ro="Învață programare C++ în mod corect cu C++ Hero">Learn C++ programming the right way with C++ Hero</p>
+            </div>
+            <div class="footer-section">
+                <h3 class="translate" data-en="Quick Links" data-ro="Link-uri Rapide">Quick Links</h3>
+                <ul>
+                    <li><a href="#" class="translate" data-en="Terms of Service" data-ro="Termeni și Condiții">Terms of Service</a></li>
+                    <li><a href="#" class="translate" data-en="Privacy Policy" data-ro="Politica de Confidențialitate">Privacy Policy</a></li>
+                    <li><a href="#" class="translate" data-en="FAQ" data-ro="Întrebări Frecvente">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 C++ Hero. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="translate" data-en="Contact Us" data-ro="Contactează-ne">Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="translate" data-en="Send Message" data-ro="Trimite Mesaj">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
